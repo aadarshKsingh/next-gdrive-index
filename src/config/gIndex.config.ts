@@ -73,8 +73,8 @@ const config: z.input<typeof Schema_Config> = {
     defaultField:
       "id, name, mimeType, thumbnailLink, fileExtension, modifiedTime, size, imageMediaMetadata, videoMediaMetadata, webContentLink, trashed",
     defaultOrder: "folder, name asc, modifiedTime desc",
-    itemsPerPage: 50,
-    searchResult: 5,
+    itemsPerPage: 100,
+    searchResult: 20,
 
     /**
      * By default, the app will use the thumbnail URL from Google Drive
