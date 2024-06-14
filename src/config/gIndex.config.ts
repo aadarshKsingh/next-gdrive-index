@@ -51,7 +51,7 @@ const config: z.input<typeof Schema_Config> = {
      * You need to create a new folder and share it with the service account
      * Then, copy the folder id and paste it here
      */
-    rootFolder: "b76c7c22083307a3aa99c28ab7cc69851d682f5a250d995679d4be5276cab16ab6c37f4d5b7ad1a9b93fb9bf768e752c",
+    rootFolder: "f1543adda457e6dae966a9dc8eafff759ed69537c1dffccd6845cd6d9e49517106750c6f263ad63510651348945254f9",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -66,7 +66,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * Then you need to encrypt it using `/api/internal/encrypt?q=:shared_drive_id` route
      */
-    isTeamDrive: true,
+    isTeamDrive: false,
     sharedDrive: "77bfa156c9c9d159112fcb0494ed8545bdaf7a3d567cd760ba2e2e2cd33fcbfc",
 
     defaultQuery: ["trashed = false", "(not mimeType contains 'google-apps' or mimeType contains 'folder')"],
@@ -175,9 +175,9 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "next-gdrive-index",
+    siteName: "OVERLORD",
     siteNameTemplate: "%s - %t",
-    siteDescription: "A simple file browser for Google Drive",
+    siteDescription: "Piracy is Preservation",
     siteIcon: "/logo.svg",
     siteAuthor: "mbaharip",
     favIcon: "/favicon.png",
